@@ -4,10 +4,10 @@
     date_default_timezone_set("Asia/Krasnoyarsk");
 
     //Токен бота
-    $token = "7255199761:AAG1W1HOwp5o_-xFYiadaQo9MB8muB4keQM";
+    $token = "#";
 
     //id чата
-    $chat_id = "-1002214111756";
+    $chat_id = "#";
 
     $cart = $_POST['cart'];
     $userName = $_POST['userName'];
