@@ -1,0 +1,35 @@
+.bg-wrapper {
+    position: absolute;
+    z-index: -10;
+    width: 100%;
+    height: 150vh;
+    overflow: hidden;
+}
+
+.sushi {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background-image: url('../images/sushi.png');
+    background-repeat: no-repeat;
+    background-size: 100%;
+    top: -20%;
+    right: -2%;
+}
+
+.vid-sak {
+    position: absolute;
+    z-index: -9;
+    width: 105%;
+    height: auto;
+    transform: rotate(-50deg);
+    right: -60%;
+    top: -28%;
+    border-radius: 80px;
+    opacity: 0.5;
+    box-shadow: -10px 0px 20px #b3b3b3;
+}
+
+.mobile-gradient {
+    display: none;
+}

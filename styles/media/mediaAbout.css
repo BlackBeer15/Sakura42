@@ -1,0 +1,290 @@
+@media (max-width: 1550px) {
+    .sushi {
+        top: -10%;
+        right: -2%;
+    }
+
+    .hi-words {
+        font-size: 60px;
+    }
+}
+
+@media (max-width: 1440px) {
+    .about-wrapper-skill div p {
+        font-size: 20px;
+    }
+}
+
+@media (max-width: 1380px) {
+    .hi-words {
+        font-size: 55px;
+        line-height: 70px;
+    }
+}
+
+@media (max-width: 1310px) {
+    .about-wrapper-buttons p, .about-wrapper-buttons p span {
+        font-size: 22px;
+    }
+
+    .about-wrapper-skill {
+        margin-top: 70px;
+    }
+
+    .about-wrapper-skill div p {
+        font-size: 18px;
+    }
+
+    .about-wrapper-skill div {
+        height: 70px;
+    }
+}
+
+@media (max-width: 1280px) {
+    .hi-words {
+        font-size: 48px;
+        line-height: 60px;
+    }
+}
+
+
+@media (max-width: 1210px) {
+    .vid-sak {
+        width: 107%;
+        top: -20%;
+    }
+}
+
+@media (max-width: 1180px) {
+    .about-wrapper-buttons p, .about-wrapper-buttons p span {
+        font-size: 20px;
+    }
+
+    .about-wrapper-buttons a {
+        font-size: 30px;
+    }
+
+    .about-wrapper-skill div p {
+        font-size: 16px;
+    }
+
+    .about-wrapper-skill div {
+        height: 60px;
+    }
+
+    .about-words {
+        font-size: 26px;
+    }
+}
+
+@media (max-width: 1120px) {
+    .hi-words {
+        font-size: 40px;
+        line-height: 50px;
+    }
+
+    .about-words {
+        margin-top: 10px;
+    }
+
+    .about-wrapper-buttons p, .about-wrapper-buttons p span {
+        font-size: 18px;
+    }
+
+    .about-wrapper-buttons a {
+        font-size: 28px;
+    }
+
+    .about-wrapper-skill div p {
+        font-size: 14px;
+    }
+}
+
+@media (max-width: 1000px) {   
+    .mobile-gradient {
+        display: block;
+        width: 100%;
+        height: 100vh;
+        position: absolute;
+        z-index: -9;
+        background: linear-gradient(180deg, rgba(235,190,208,1) 22%, rgba(248,248,248,1) 100%);
+        opacity: 0.1;
+    }
+    
+    .bg-wrapper {
+        height: 100vh;
+    }
+
+    .vid-sak {
+        display: none;
+    }
+
+    .about-company {
+        position: relative;
+        height: auto;
+    }
+
+    .sushi {
+        position: absolute;
+        width: 140%;
+        height: 100vh;
+        top: 0;
+        right: 0%;
+        opacity: 0.4;
+    }
+
+    .hi-words {
+        width: 80%;
+        font-size: 68px;
+        font-weight: 500;
+        line-height: 80px;
+    }
+    
+    .about-words {
+        margin-top: 25px;
+        width: 70%;
+        font-size: 30px;
+        font-weight: 400;
+    }
+
+    .about-wrapper-buttons {
+        margin-top: 50px;
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        align-items: center;
+        height: 200px;
+    }
+
+    .about-wrapper-buttons a {
+        width: 100%;
+        height: 40%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        border-radius: 0px;
+        background-color: #ebbed0;
+        border: 3px solid #ebbed0;
+        text-decoration: none;
+        color: #fff;
+        text-transform: uppercase;
+        font-size: 42px;
+        font-weight: 500;
+    }
+    
+    .about-wrapper-buttons p {
+        width: 100%;
+        height: 40%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        border: 3px solid #ebbed0;
+        border-radius: 0px;
+        font-size: 30px;
+        font-weight: 500;
+    }
+
+    .about-wrapper-skill {
+        margin-top: 100px;
+        width: 100%;
+        display: flex;
+        justify-content: space-between;
+    }
+    
+    .about-wrapper-skill div {
+        width: 32%;
+        height: 85px;
+        display: flex;
+    }
+    
+    .about-wrapper-skill div img {
+        user-select: none;
+    }
+    
+    .about-wrapper-skill div p {
+        font-size: 22px;
+        padding-top: 5px;
+        padding-left: 10px;
+        font-weight: 500;
+    }
+}
+
+@media (max-width: 900px) {
+    .about-company {
+        padding-top: 20vw;
+    }   
+
+    .about-wrapper-skill {
+        flex-direction: column;
+        margin-top: 25px;
+    }
+
+    .about-wrapper-skill div {
+        width: 100%;
+        height: 200px;
+        align-items: center;
+        flex-direction: column;
+    }
+
+    .about-wrapper-skill div p {
+        font-size: 40px;
+    }
+
+    .hi-words {
+        font-size: 60px;
+        line-height: 65px;
+    }
+}
+
+@media (max-width: 600px) {
+    .about-wrapper-skill div p {
+        font-size: 30px;
+    }
+
+    .sushi {
+        position: absolute;
+        width: 180%;
+        height: 100vh;
+        top: -2%;
+        right: -20%;
+        opacity: 0.4;
+    }
+
+    .hi-words {
+        font-size: 50px;
+        line-height: 55px;
+    }
+}
+
+@media (max-width: 500px) {
+    .about-company {
+        padding-top: 30vw;
+    }
+}
+
+@media (max-width: 460px) {
+    .hi-words {
+        font-size: 40px;
+        line-height: 45px;
+    }
+
+    .about-words {
+        margin-top: 10px;
+        font-size: 25px;
+    }
+
+    .about-wrapper-buttons a {
+        font-size: 38px;
+        font-weight: 500;
+    }
+    
+    .about-wrapper-buttons p {
+        font-size: 25px;
+        font-weight: 500;
+    }
+
+    .about-wrapper-skill div p {
+        font-size: 25px;
+    }
+}

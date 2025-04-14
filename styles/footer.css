@@ -1,0 +1,84 @@
+footer {
+    width: 100%;
+    background: linear-gradient(180deg, rgba(50,50,50,1) 0%, rgba(28,28,28,1) 92%, rgba(28,28,28,1) 100%);
+    height: 500px;
+    display: flex;
+    justify-content: center;
+    margin-top: 100px;
+}
+
+.wrapper-footer {
+    width: 90%;
+    margin-top: 50px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.contact-footer {
+    position: relative;
+    width: 30%;
+}
+
+.title-contact-footer {
+    font-size: 36px;
+    font-weight: 600;
+    color: #fff;
+}
+
+.contact-footer hr {
+    margin-top: 10px;
+    height: 2px;
+    color: #fff;
+    background-color: #fff;
+}
+
+.contact-phones {
+    font-size: 22px;
+    color: #fff;
+    font-weight: 500;
+    margin-top: 10px;
+}
+
+.social {
+    margin-top: 20px;
+}
+
+.social a {
+    color: #fff;
+    font-size: 40px;
+    text-decoration: none;
+    margin-right: 20px;
+}
+
+.map {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.map iframe {
+    width: 100%;
+    height: 300px;
+}
+
+.create-by {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: end;
+    margin-bottom: 10px;
+}
+
+.create-by p {
+    color: #fff;
+    font-size: 18px;
+    font-weight: 300;
+    margin-right: 20px;
+}
+
+.about-ip {
+    color: #fff;
+    position: absolute;
+    bottom: 20px;
+    left: 0;
+}

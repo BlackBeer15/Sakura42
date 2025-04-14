@@ -1,0 +1,101 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700;900&display=swap');
+
+@font-face {
+	font-family: 'HanZi';
+	font-style: normal;
+	font-weight: normal;
+	src: local('HanZi'),
+		url('../fonts/ttf/HanZi.ttf') format('ttf'),
+		url('../fonts/woff/HanZi.woff') format('woff');
+}
+
+* {
+    font-family: "Roboto", sans-serif;
+    font-weight: 300;
+    font-style: normal;
+    margin: 0;
+    padding: 0;
+}
+
+html, body {
+    position: relative;
+    z-index: -999;
+    width: 100%;
+    background-color: #f8f8f8;
+    overflow-x: hidden;
+}
+
+main {
+    position: relative;
+    z-index: 10;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.wrapper-all {
+    width: 90%;
+}
+
+.open-card-wrapper {
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 9999999;
+    width: 100%;
+    height: 100vh;
+    overflow: hidden;
+    background-color: rgba(0, 0, 0, 0.5);
+    display: none;
+    justify-content: center;
+    align-items: center;
+}
+
+.open-product-card {
+    position: relative;
+    background-color: #f8f8f8;
+    width: 30%;
+    min-height: 70%;
+    max-height: 95%;
+    border-radius: 10px;
+}
+
+.open-product-card i {
+    position: absolute;
+    right: -18px;
+    top: -25px;
+    font-size: 50px;
+    color: #ff9090;
+    -webkit-text-stroke: 1px #000;
+    text-stroke: 1px #000;
+    cursor: pointer;
+    transition: 0.4s;
+}
+
+.open-product-card i:hover {
+    transform: rotate(10deg);
+}
+
+.open-product-card .weight {
+    margin-top: 30px;
+    margin-bottom: 80px;
+}
+
+.open-product-card .info-card-wrapper {
+    margin-top: 25px;
+}
+
+.open-product-card .info-card-wrapper .name-product {
+    font-size: 27px;
+}
+
+.open-product-card .info-card-wrapper .about-product {
+    display: block;
+}
+
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+    /* display: none; <- Crashes Chrome on hover */
+    -webkit-appearance: none;
+    margin: 0; /* <-- Apparently some margin are still there even though it's hidden */
+}

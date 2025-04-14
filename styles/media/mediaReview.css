@@ -1,0 +1,154 @@
+@media (max-width: 1300px) {
+    .card-title-review {
+        height: 74px;
+    }
+
+    .name-date p:first-child {
+        font-size: 28px;
+    }
+
+    .name-date p:last-child {
+        margin-top: 5px;
+    }
+
+    .avatar {
+        width: 60px;
+        height: 60px;
+    }
+
+    .stars-wrapper {
+        height: 34px;
+    }
+
+    .stars-wrapper img {
+        margin-right: 6px;
+    }
+
+    .card-review {
+        width: 27%;
+    }
+}
+
+@media (max-width: 1000px) {
+    .chek-rev {
+        display: block;
+    }
+
+    .swiper {
+        height: 700px;
+    }
+
+    .swiper-slide {
+        flex-direction: column;
+    }
+
+    .swiper-slide .card-review:nth-child(2) {
+        margin-top: 0px;
+    }
+
+    .card-review {
+        width: 80%;
+        height: 30%;
+    }
+
+    .card-title-review {
+        height: 74px;
+    }
+
+    .name-date p:first-child {
+        font-size: 28px;
+    }
+
+    .name-date p:last-child {
+        margin-top: 5px;
+    }
+
+    .avatar {
+        width: 60px;
+        height: 60px;
+    }
+
+    .stars-wrapper {
+        height: 34px;
+    }
+
+    .stars-wrapper img {
+        margin-right: 6px;
+    }
+}
+
+@media (max-width: 800px) {
+    .chek-rev button {
+        font-size: 22px;
+    }
+}
+
+@media (max-width: 680px) {
+    .card-review {
+        width: 70%;
+    }
+
+    .card-title-review {
+        height: 60px;
+    }
+
+    .name-date p:first-child {
+        font-size: 26px;
+    }
+
+    .name-date p:last-child {
+        margin-top: 3px;
+    }
+
+    .avatar {
+        width: 50px;
+        height: 50px;
+    }
+
+    .stars-wrapper {
+        height: 28px;
+    }
+
+    .stars-wrapper img {
+        margin-right: 5px;
+    }
+
+    .review-comment {
+        font-size: 14px;
+    }
+}
+
+@media (max-width: 460px) {
+    .card-review {
+        width: 65%;
+    }
+
+    .card-title-review {
+        height: 50px;
+    }
+
+    .name-date p:first-child {
+        font-size: 22px;
+    }
+
+    .name-date p:last-child {
+        margin-top: 2px;
+    }
+
+    .avatar {
+        width: 50px;
+        height: 50px;
+    }
+
+    .stars-wrapper {
+        height: 23px;
+    }
+
+    .stars-wrapper img {
+        margin-right: 5px;
+    }
+
+    .review-comment {
+        font-size: 12px;
+    }
+}

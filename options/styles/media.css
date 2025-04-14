@@ -1,0 +1,35 @@
+@media (max-width: 1150px) {
+    main {
+        height: 100%;
+    }
+
+    .products-wrapper {
+        flex-direction: column-reverse;
+        align-items: center;
+    }
+
+    .create-products {
+        margin-top: 150px;
+        width: 90%;
+    }
+
+    .all-products {
+        margin-top: 50px;
+        width: 90%;
+        margin-bottom: 100px;
+    }
+
+    .about-user {
+        flex-direction: column;
+    }
+
+    .user-wrapper {
+        height: 150px;
+    }
+
+    .user-wrapper button  {
+        height: 100%;
+        width: 75px;
+        font-size: 18px;
+    }
+}

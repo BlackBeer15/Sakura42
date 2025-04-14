@@ -1,0 +1,34 @@
+@media (max-width: 880px) {
+    .content {
+        width: 60%;
+    }
+}
+
+@media (max-width: 590px) {
+    .content {
+        width: 80%;
+    }
+
+    .f-row {
+        font-size: 24px;
+    }
+    
+    .s-row {
+        font-size: 22px;
+    }
+}
+
+@media (max-width: 450px) {
+    .f-row {
+        font-size: 18px;
+    }
+    
+    .s-row {
+        font-size: 16px;
+    }
+
+    main img {
+        height: 15%;
+        width: auto;
+    }
+}

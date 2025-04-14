@@ -1,0 +1,31 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700;900&display=swap');
+
+@font-face {
+	font-family: 'Han Zi';
+	font-style: normal;
+	font-weight: normal;
+	src: local('Han Zi'),
+		url('../fonts/ttf/Han Zi.ttf') format('ttf'),
+		url('../fonts/woff/Han Zi.woff') format('woff');
+}
+
+* {
+    font-family: "Roboto", sans-serif;
+    font-weight: 300;
+    font-style: normal;
+    margin: 0;
+    padding: 0;
+}
+
+html, body {
+    position: relative;
+    z-index: -999;
+    width: 100%;
+    background-color: #f8f8f8;
+}
+
+body {
+    background-image: url("../../images/bgAbout.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+}

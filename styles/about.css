@@ -1,0 +1,87 @@
+.about-company {
+    position: relative;
+    width: 100%;
+    height: auto;
+    padding-top: 13vw;
+}
+
+.hi-words {
+    width: 45%;
+    font-size: 68px;
+    font-weight: 500;
+    line-height: 80px;
+}
+
+.about-words {
+    margin-top: 25px;
+    width: 50%;
+    font-size: 30px;
+    font-weight: 400;
+}
+
+.about-wrapper-buttons {
+    margin-top: 50px;
+    width: 50%;
+    display: flex;
+    justify-content: space-between;
+    height: 70px;
+}
+
+.about-wrapper-buttons a {
+    width: 40%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 20px;
+    background-color: #ebbed0;
+    border: 3px solid #ebbed0;
+    text-decoration: none;
+    color: #fff;
+    text-transform: uppercase;
+    font-size: 35px;
+    font-weight: 500;
+}
+
+.about-wrapper-buttons p {
+    width: 55%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border: 3px solid #ebbed0;
+    border-radius: 20px;
+    font-size: 22px;
+}
+
+.about-wrapper-buttons p span {
+    font-size: 24px;
+    font-weight: 400;
+}
+
+.about-wrapper-skill {
+    margin-top: 100px;
+    width: 65%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.about-wrapper-skill div {
+    width: 32%;
+    height: 85px;
+    display: flex;
+}
+
+.about-wrapper-skill div img {
+    user-select: none;
+}
+
+.about-wrapper-skill div p {
+    font-size: 22px;
+    padding-top: 5px;
+    padding-left: 10px;
+    font-weight: 500;
+}
+
+  
